@@ -30,9 +30,6 @@ publishDir = "public"
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
     MathJaxVersion = "2.7.5"
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
-
     [params.logo]
     url = "logo.png"
     width = 50
