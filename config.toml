@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Shaoqing Kang's Blog"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
@@ -15,13 +15,11 @@ publishDir = "public"
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://github.com/ksq"
+
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "Shaoqing Kang's Blog."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
