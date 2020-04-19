@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "new_post",
+        "type": "shell",
+        "command": "Rscript -e 'blogdown::new_post(\"${input:title}\")'",
+        "problemMatcher": []
+      },
+      {
+        "label": "serve_site",
+        "type": "shell",
+        "command": "Rscript -e 'blogdown::serve_site()'",
+        "problemMatcher": []
+      }
+    ],
+    "inputs": [
+      {
+        "id": "title",
+        "description": "Article title",
+        "default": "untitled",
+        "type": "promptString"
+      }
+    ]
+  }
