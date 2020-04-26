@@ -14,4 +14,4 @@ For instance,
 rdt[, .(symbol, year, x1, x2)]
 ```
 We could view a dataset with four columns `symbol`, `year`, `x1`, `x2`.
-The columns of `symbol`, `year` are the "key" columns for identification while the columns of `x1` and ``x2` are the ones that we would like to view.
+The columns of `symbol`, `year` are the "key" columns for identification while the columns of `x1` and `x2` are the ones that we would like to view.
